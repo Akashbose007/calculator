@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:wheat;
+}
+#container{
+    width: 320px;
+    height: 650px;
+    background-color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+#result
+{
+  height: 100px; 
+}
+#history
+{
+    height: 50px;
+    margin: 10px 10px;
+    text-align: right;
+    color: #919191;
+    font-size: 18px;
+}
+#output{
+    height: 50px;
+    margin: 5px;
+    text-align: right;
+    color: white;
+    font-size: 30px;
+}
+#keyboard{
+   height: 430px;
+   margin: 30px 10px;
+}
+.operator,.number,.empty{
+    width: 70px;
+    height: 70px;
+    border-radius: 50px;
+     margin: 15px 1px;
+    padding: 20px;
+    outline: none;
+    border: 0;
+    font-weight: bold;
+    font-size: 18px;
+    color:white;
+    background-color: black;
+}
+.empty{
+    background-color:black;
+}
+.operator,.number{
+    cursor: pointer;
+}
+.operator:active,.number:active{
+    font-size: 15px;
+}
+button:nth-child(4){
+ color: rgb(79, 226, 21);
+ font-size: 25px;
+}
+button:nth-child(8){
+    color: rgb(255, 174, 0);
+    font-size: 25px;
+}
+button:nth-child(12){
+    color: rgb(226, 178, 21);
+    font-size: 25px;
+}
+button:nth-child(16){
+    color: rgb(152, 67, 223);
+    font-size: 25px;
+}
+button:nth-child(20){
+    color: rgb(226, 21, 226);
+    font-size: 25px;
+}
